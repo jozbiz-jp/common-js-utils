@@ -1,0 +1,23 @@
+{
+  "name": "common-js-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A comprehensive collection of JavaScript utility functions.",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jozbiz-jp/common-js-utils.git"
+  },
+  "keywords": ["javascript", "utility", "functions", "library"],
+  "author": "Joel Philip",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "eslint": "^7.0.0",
+    "webpack": "^5.0.0"
+  }
+}
