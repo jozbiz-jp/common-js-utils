@@ -147,11 +147,6 @@ function filterObject(obj, fn) {
     return Object.fromEntries(Object.entries(obj).filter(([k, v]) => fn(v, k, obj)));
 }
 
-// Checks if an object is empty (has no own properties).
-function isObjectEmpty(obj) {
-    return Object.keys(obj).length === 0;
-}
-
 
 module.exports = {
     isObject,
@@ -171,6 +166,5 @@ module.exports = {
     unflattenObject,
     hasKey,
     mapObject,
-    filterObject,
-    isObjectEmpty
+    filterObject
 }

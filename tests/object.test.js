@@ -146,9 +146,4 @@ describe('Object Functions', () => {
         expect(filterObject(obj, val => val > 1)).toEqual({ b: 2, c: 3 });
     });
 
-    test('isObjectEmpty should correctly identify empty objects', () => {
-        expect(isObjectEmpty({})).toBe(true);
-        expect(isObjectEmpty({ a: 1 })).toBe(false);
-    });
-
 });
