@@ -944,6 +944,13 @@ import { someArrayFunction, someObjectFunction } from 'common-js-utils';
 
 Contributions are welcome! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for more information.
 
+## Testing
+Add tests for your changes in the tests directory using Jest, and confirm the test cases passing by:
+```bash
+npm test
+```
+Ensure that all tests pass before submitting your PR.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
