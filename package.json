@@ -1,6 +1,6 @@
 {
-  "name": "common-js-utils",
-  "version": "1.0.0",
+  "name": "@jozbiz-jp/common-js-utils",
+  "version": "1.0.2",
   "main": "index.js",
   "description": "A comprehensive collection of JavaScript utility functions.",
   "scripts": {

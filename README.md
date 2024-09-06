@@ -55,17 +55,23 @@ You can also include the entire set of utilities in a single minified file using
 You can install the utilities as an npm package for easy integration into Node.js or browser-based JavaScript projects.
 
 ```bash
-npm install common-js-utils
+npm install @jozbiz-jp/common-js-utils
 ```
 
 Then import the necessary functions into your project:
 ```javascript
-const { someArrayFunction, someObjectFunction } = require('common-js-utils');
+const { someArrayFunction, someObjectFunction } = require('@jozbiz-jp/common-js-utils');
 ```
 
 In case of ES Module:
 ```javascript
-import { someArrayFunction, someObjectFunction } from 'common-js-utils';
+import { someArrayFunction, someObjectFunction } from '@jozbiz-jp/common-js-utils';
+```
+
+For example:
+```javascript
+import { getOrdinalSuffix } from "@jozbiz-jp/common-js-utils";
+getOrdinalSuffix(21) // 21st
 ```
 
 ## Utilities List
